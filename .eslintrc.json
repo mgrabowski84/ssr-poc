@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "standard",
+    "standard-react"
+  ],
+  "rules": {
+    "space-before-function-paren": ["error", "never"],
+    "comma-dangle": ["error", "always-multiline"],
+    "eqeqeq": ["error", "smart"],
+    "jsx-quotes": ["error", "prefer-double"]
+  }
+}
